@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Averager	closure_test.py	/^class Averager():$/;"	c
+DIRNAME	download_from_url.py	/^DIRNAME = 'downloads'$/;"	v
+DemoException	generator_coro.py	/^class DemoException(Exception):$/;"	c
+Result	asyncio_coro.py	/^Result = namedtuple('Result', 'count average')$/;"	v
+Result	generator_coro.py	/^Result = namedtuple('Result', 'count average')$/;"	v
+SAMPLE_URL	download_from_url.py	/^SAMPLE_URL = 'http:\/\/i3.ytimg.com\/vi\/J---aiyznGQ\/mqdefault.jpg'$/;"	v
+TestAlgorithms	test_algorithms.py	/^class TestAlgorithms(TestCase):$/;"	c
+TestRandom	mock_test.py	/^class TestRandom(unittest.TestCase):$/;"	c
+__call__	closure_test.py	/^    def __call__(self, new_value):$/;"	m	class:Averager	file:
+__init__	closure_test.py	/^    def __init__(self):$/;"	m	class:Averager
+__init__	generator_coro.py	/^    def __init__(self, list):$/;"	m	class:gen_class
+__iter__	generator_coro.py	/^    def __iter__(self):$/;"	m	class:gen_class	file:
+abc_urandom	mock_module.py	/^def abc_urandom(length):$/;"	f
+add	asyncio_coro.py	/^async def add(a, b):$/;"	f
+async_coro	asyncio_20180309.py	/^    async def async_coro():$/;"	f	function:test_async_coro
+averager	asyncio_coro.py	/^async def averager():$/;"	f
+averager	closure_test.py	/^    def averager(new_val):$/;"	f	function:make_averager
+averager	generator_coro.py	/^def averager():$/;"	f
+averager2	generator_coro.py	/^def averager2():$/;"	f
+averager3	generator_coro.py	/^def averager3():$/;"	f
+averager4	generator_coro.py	/^def averager4():$/;"	f
+binsearch	algorithms.py	/^def binsearch(data, target):$/;"	f
+caller	generator_coro.py	/^def caller(data):$/;"	f
+coroutine	generator_coro.py	/^def coroutine(func):$/;"	f
+coroutine_wrapper	asyncio_coro.py	/^async def coroutine_wrapper(async_gen, args):$/;"	f
+create_download_dir	download_from_url.py	/^def create_download_dir():$/;"	f
+delegating_gen	generator_coro.py	/^def delegating_gen(results, key):$/;"	f
+demo_exc_handling	generator_coro.py	/^def demo_exc_handling():$/;"	f
+doctest_iterate_dict	test_general.py	/^def doctest_iterate_dict():$/;"	f
+download	download_from_url.py	/^def download(func):$/;"	f
+download_path	download_from_url.py	/^def download_path(filename):$/;"	f
+download_requests	download_from_url.py	/^def download_requests(target_url):$/;"	f
+download_urlopen	download_from_url.py	/^def download_urlopen(target_url):$/;"	f
+download_urlretrieve	download_from_url.py	/^def download_urlretrieve(target_url):$/;"	f
+download_wget	download_from_url.py	/^def download_wget(target_url):$/;"	f
+fetch	asyncio_coro.py	/^    async def fetch(url):$/;"	f	function:web_download_async
+future_wrapper	asyncio_coro.py	/^    async def future_wrapper():$/;"	f	function:web_download_async
+gen_class	generator_coro.py	/^class gen_class:$/;"	c
+gen_coro	asyncio_20180309.py	/^    def gen_coro():$/;"	f	function:test_gen_coro
+gen_func	generator_coro.py	/^def gen_func():$/;"	f
+hello	asyncio_coro.py	/^async def hello(name):$/;"	f
+make_averager	closure_test.py	/^def make_averager():$/;"	f
+primer	generator_coro.py	/^    def primer(*args, **kwargs):$/;"	f	function:coroutine
+print_add	asyncio_coro.py	/^async def print_add(a, b):$/;"	f
+sample_coro_func	asyncio_20180309.py	/^    async def sample_coro_func():$/;"	f	function:test_coroutine
+scope_doctest	closure_test.py	/^def scope_doctest():$/;"	f
+simple_application1	asyncio_coro.py	/^def simple_application1():$/;"	f
+simple_coroutine	generator_coro.py	/^def simple_coroutine():$/;"	f
+simple_coroutine2	generator_coro.py	/^def simple_coroutine2(a):$/;"	f
+simple_urandom	mock_test.py	/^def simple_urandom(length):$/;"	f
+sub_gen	generator_coro.py	/^def sub_gen(): # simple averager$/;"	f
+suite	test_algorithms.py	/^    suite = unittest.TestLoader().loadTestsFromTestCase(TestAlgorithms)$/;"	v	class:TestAlgorithms
+test	test_doctest.py	/^def test():$/;"	f
+test_async_coro	asyncio_20180309.py	/^async def test_async_coro():$/;"	f
+test_binary_sort	test_algorithms.py	/^    def test_binary_sort(self):$/;"	m	class:TestAlgorithms
+test_coroutine	asyncio_20180309.py	/^def test_coroutine():$/;"	f
+test_gen_coro	asyncio_20180309.py	/^def test_gen_coro():$/;"	f
+test_sleep	asyncio_20180309.py	/^def test_sleep():$/;"	f
+test_urandom	mock_test.py	/^    def test_urandom(self, abc_urandom):$/;"	m	class:TestRandom
+using_async_gen	asyncio_coro.py	/^def using_async_gen():$/;"	f
+web_download_async	asyncio_coro.py	/^def web_download_async():$/;"	f
+web_download_simple	asyncio_coro.py	/^def web_download_simple():$/;"	f
+wrapper	download_from_url.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:download
+xrange	asyncio_coro.py	/^async def xrange(numbers):$/;"	f
